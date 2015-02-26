@@ -147,11 +147,13 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #CBFF75;
 }
 
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+
   
   @include mobile {
     text-align: center;
@@ -238,11 +240,11 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 7px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 5em;
   border-bottom: none;
 }
 
@@ -270,7 +272,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #1E821E;
 }
 
 /*Tag from https://alexpearce.me*/
@@ -318,7 +320,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 20px 1;
   text-align: center;
 }
 
